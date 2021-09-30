@@ -16,6 +16,7 @@ a {
 
 .container {
   background-image: linear-gradient(#d2f3dc, #ffffff);
+  padding: 3rem 10rem;
 }
 
 .nav {
@@ -25,6 +26,7 @@ a {
 
 .nav__links {
   display: flex;
+  align-items: center;
 }
 
 .nav__items {
@@ -33,6 +35,64 @@ a {
   margin-right: 3rem;
 }
 
-.nav__item {
+.nav__item a {
   margin-right: 3rem;
+  color: #a1b0c6;
+}
+
+.nav__item a:hover {
+  color: #65b2a0;
+}
+
+.primary-btn {
+  background-color: #d2f3dc;
+  border-color: #65b2a0;
+  border-radius: 1rem;
+  color: #65b2a0;
+  outline: none;
+  padding: 1rem 1.5rem;
+}
+
+.showcase {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.showcase-content {
+  width: 40%;
+}
+
+.showcase-content h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.showcase-content h1 span {
+  color: #65b2a0;
+}
+
+.showcase-content p {
+  margin: 1.5rem 0;
+}
+
+.showcase img {
+  width: 45%;
+}
+
+.secondary-btn_first {
+  background-color: #65b2a0;
+  border: none;
+  border-radius: 0.7rem;
+  color: #ffffff;
+  margin-right: 2rem;
+  padding: 1rem 1.5rem;
+}
+
+.secondary-btn_second {
+  background-color: #ffffff;
+  border-radius: 0.7rem;
+  border-color: #65b2a0;
+  color: #65b2a0;
+  padding: 1rem 1.5rem;
 }
