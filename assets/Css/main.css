@@ -1,0 +1,38 @@
+:root {
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background-image: linear-gradient(#d2f3dc, #ffffff);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__links {
+  display: flex;
+}
+
+.nav__items {
+  display: flex;
+  list-style: none;
+  margin-right: 3rem;
+}
+
+.nav__item {
+  margin-right: 3rem;
+}
